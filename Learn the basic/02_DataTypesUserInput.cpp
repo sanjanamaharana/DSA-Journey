@@ -32,6 +32,7 @@ int main() {
   cout << "Enter a string: ";
   cin >> str;     //sequence of characters
   cout << "You entered: " << str << endl;
+   cout << str.length() << endl;    //to find length of string
 
   //for boolean input
   bool b;
