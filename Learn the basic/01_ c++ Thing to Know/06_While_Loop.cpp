@@ -12,7 +12,7 @@ int main() {
 }
 
 
-// factotial
+// factotial find using while loop
 
 #include<iostream>
 using namespace std;
