@@ -12,7 +12,13 @@ int main() {
   return 0;
   
 }
+// import math
+// num = int(input("Enter a number : "))
+// digit_count = int(math.log10(abs(num))) + 1
+// print(f"{num} have {digit_count} digit")
 
+// Enter a number : -1222
+// -1222 have 4 digit
 
 
 // You are given an integer n. You need to return the number of digits in the number.
