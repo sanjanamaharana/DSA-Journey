@@ -48,6 +48,12 @@ int main() {
    }
     return 0;
 }
+// count = 69
+// for i in range(0,6):
+//     for j in range(0,i+1):
+//         print(chr(count-j)," ", end="")
+//         # count += 1
+//     print("")
 
 // E
 // ED
@@ -69,6 +75,12 @@ int main() {
    }
     return 0;
 }
+// count = 64
+// for i in range(5,0,-1):
+//     for j in range(i,0,-1):
+//         print(chr(count+j)," ", end="")
+//     print("")
+
 
 // E
 // DE

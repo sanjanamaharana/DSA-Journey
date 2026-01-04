@@ -10,6 +10,12 @@ int main() {
     }
     return 0;
 }
+// count = 64
+// for i in range(1,7):
+//     for j in range(1,i+1):
+//         print(chr(count+j)," ", end="")
+//     print("")
+
 
 // A
 // AB
@@ -29,6 +35,12 @@ int main() {
     }
     return 0;
 }
+// count = 64
+// for i in range(6,0,-1):
+//     for j in range(1,i):
+//         print(chr(count+j)," ", end="")
+//     print("")
+
 
 // ABCDE
 // ABCD
@@ -48,6 +60,14 @@ int main() {
     }
     return 0;
 }
+
+// count = 64
+// for i in range(5,0,-1):
+//     for j in range(i,0,-1):
+//         print(chr(count+i)," ", end="")
+//     print("")
+
+
 // EEEEE
 // DDDD
 // CCC
@@ -66,9 +86,27 @@ int main() {
     }
     return 0;
 }
+// count = 64
+// for i in range(0,6):
+//     for j in range(0,i+1):
+//         print(chr(count+i)," ", end="")
+//     print("")
+
 
 // A
 // BB
 // CCC
 // DDDD
 // EEEEE
+
+// count = 69
+// for i in range(0,6):
+//     for j in range(0,i+1):
+//         print(chr(count-i)," ", end="")
+//         # count += 1
+//     print("")
+// E  
+// D  D  
+// C  C  C  
+// B  B  B  B  
+// A  A  A  A  A  

@@ -13,6 +13,14 @@ int main() {
     return 0;
 }
 
+// count =1
+// for i in range(1,7):
+//     for j in range(1,i+1):
+        
+//         print(count," ", end="")
+//         count += 1
+//     print("")
+
 // 1 
 // 2 3 
 // 4 5 6 
@@ -40,3 +48,10 @@ int main() {
 // D E F 
 // G H I J 
 // K L M N O 
+
+// count = 65
+// for i in range(1,7):
+//     for j in range(1,i+1):
+//         print(chr(count)," ", end="")
+//         count += 1
+//     print("")

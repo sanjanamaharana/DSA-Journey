@@ -4,15 +4,15 @@ using namespace std;
 int main() {
     int n=5;
     for (int i = 0; i <= n; i++) {
-        //space
+        //star
         for(int j=0;j<=n-i;j++){
             cout<< "*";
         }
-        //star
+        //space
         for(int j=1; j<2*i+1;j++){
             cout<<  " ";
         }
-        //space
+        //star
         for(int j=0;j<=n-i;j++){
             cout<< "*";
         }
@@ -20,12 +20,12 @@ int main() {
         cout<< endl;
     }
     for (int i = 0; i <= n; i++) {
-        // spaces
+        // star
         for (int j = 0; j <= i; j++) {
             cout << "*";
         }
 
-        // stars
+        // space
         for (int j = 1; j <=2 * (n - i) ; j++) {
             cout << " ";
         }
@@ -37,6 +37,24 @@ int main() {
     }
     return 0;
 }
+// for i in range(0,6):
+//     for j in range(0,6-i):
+//         print("*", end="")
+//     for j in range(0,(2*i)+1):
+//         print(" ", end="")
+//     for j in range(0,6-i):
+//         print("*", end="")
+//     print("")
+// for i in range(0,6):
+//     for j in range(0,i+1):
+//         print("*", end="")
+//     for j in range(0,2*(6-i)-1):
+//         print(" ", end="")
+//     for j in range(0,i+1):
+//         print("*", end="")
+//     print("")
+
+
 // ************
 // *****  *****
 // ****    ****
@@ -49,6 +67,8 @@ int main() {
 // ****    ****
 // *****  *****
 // ************
+
+
 
 #include <iostream>
 using namespace std;
@@ -90,6 +110,25 @@ int main() {
    
     return 0;
 }
+
+// for i in range(0,6):
+//     for j in range(0,i+1):
+//         print("*", end="")
+//     for j in range(0,2*(6-i)-1):
+//         print(" ", end="")
+//     for j in range(0,i+1):
+//         print("*", end="")
+//     print("")
+// for i in range(0,6):
+//     for j in range(0,6-i):
+//         print("*", end="")
+//     for j in range(0,(2*i)+1):
+//         print(" ", end="")
+//     for j in range(0,6-i):
+//         print("*", end="")
+//     print("")
+
+
 // *          *
 // **        **
 // ***      ***
@@ -124,6 +163,22 @@ int main() {
     }
     return 0;
 }
+
+n = 4
+size = 2 * n - 1
+for i in range(0,size):
+    for j in range(0,size):
+        top = i
+        left = j
+        right = size - 1 - i
+        down = size - 1 - j
+        value = n - min(top, left, right, down)
+        print(value, end="")
+       
+    print("")
+
+
+
 4444444
 4333334
 4322234
