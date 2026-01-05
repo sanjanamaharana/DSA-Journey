@@ -133,3 +133,31 @@ st = input("Enter a string : ")
 rev =st[::-1]
 if(st==rev):
   print(f"{st} is a palindrome .because in backward is {rev}")
+
+
+
+
+
+
+
+
+
+s = "anagram"
+print(sorted(s)) 
+# Output: ['a', 'a', 'a', 'g', 'm', 'n', 'r']
+
+from collections import Counter
+
+s = "anagram"
+print(Counter(s))
+# Output: Counter({'a': 3, 'n': 1, 'g': 1, 'r': 1, 'm': 1})
+
+
+Input: s = "anagram"
+t = "nagaram"
+# Output: true
+
+class Solution:
+    def isAnagram(self, s: str, t: str) -> bool:
+        return Counter(s) == Counter(t)
+           

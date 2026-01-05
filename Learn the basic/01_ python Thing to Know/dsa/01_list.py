@@ -23,7 +23,9 @@ my_list.remove(2)   # [1, 99, 3, 4]
 my_list.pop()       # Removes last element -> [1, 99, 3]
 my_list.reverse()   # [3, 99, 1]
 my_list.sort()      # [1, 3, 99]
+my_list.sort(reverse=True) #[99, 3, 1]
 my_list.extend(mixed)  # [1, 3, 99, 10, "hello", 3.14,False]
+my_list.so
 
 
 
