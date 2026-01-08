@@ -25,7 +25,7 @@ my_list.reverse()   # [3, 99, 1]
 my_list.sort()      # [1, 3, 99]
 my_list.sort(reverse=True) #[99, 3, 1]
 my_list.extend(mixed)  # [1, 3, 99, 10, "hello", 3.14,False]
-my_list.so
+my_list.index(3)
 
 
 
