@@ -33,7 +33,7 @@ vkjfvnfjvfjv
 print("sanjanan \\ sank")
 
 # \t new tab
-# \' i need ' in my sentence
+# \' it need ' in my sentence
 
 print("ans","sdmdksmd") #ans sdmdksmd
 print("ans" "sdmdksmd") #anssdmdksmd

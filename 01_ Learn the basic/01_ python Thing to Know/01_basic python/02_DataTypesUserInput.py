@@ -23,7 +23,8 @@ dict1 = {"name": "Sanjana", "age": 23} # dictionary unordered,mutable,key-value 
 print("Hello! My name is ",name," and Age:", age,".my cgpa is ", cgpa)
 # Hello! My name is  Sanjana  and Age: 23 .my cgpa is  8.99
 
-print("Hello! My name is "+name+" and Age:"+ age+".my cgpa is "+ cgpa) #give Error
+print("Hello! My name is "+name+" and Age:"+ age+".my cgpa is "+ cgpa) 
+#give Error
 
 print("Hello! My name is "+name+" and Age:"+ str(age)+".my cgpa is "+ str(cgpa))
 # Hello! My name is Sanjana and Age:23.my cgpa is 8.99
