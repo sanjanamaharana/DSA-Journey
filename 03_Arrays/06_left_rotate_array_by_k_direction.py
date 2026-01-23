@@ -116,7 +116,8 @@ print("Array after left rotation:", arr2)
 
 
 
-
+# 189 . Rotate array
+#  it is best answer also in leetcode 
 arr = [1, 2, 3, 4, 5, 6, 7]
 dir = input("Enter direction :")
 k = 2
@@ -125,6 +126,8 @@ if dir == "right" :
     arr[:] = arr[::-1]
     arr[:k] = arr[:k][::-1]
     arr[k:] = arr[k:][::-1]
+    # nums[:] = nums[-k:] + nums[:-k]
+
 
 else :
     arr[:] = arr[::-1]
